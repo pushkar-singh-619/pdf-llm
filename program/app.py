@@ -50,7 +50,7 @@ def chat(message, history, ebook_path):
 demo = gr.ChatInterface(
     fn=chat,
     additional_inputs=[
-        gr.File(label="Upload a ebook(pdf)", file_types=[".pdf"], type="filepath")
+        gr.File(label="Upload an ebook(pdf)", file_types=[".pdf"], type="filepath")
     ]
 )
 
